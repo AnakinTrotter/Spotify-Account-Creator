@@ -193,4 +193,4 @@ class AccountGenerator:
 
             while self.variables['created'] != int(self.amount):
                 continue
-            print('\n%s> %sFinished%s.' % (reset(), green(), reset()))
+            print('\n%s> %sFinished%s.\n' % (reset(), green(), reset()))
